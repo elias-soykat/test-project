@@ -10,7 +10,8 @@ export default withSentryConfig(
 
       org: "elias-org-mj",
       project: "javascript-nextjs",
-
+      authToken:
+        "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",
       // Only print logs for uploading source maps in CI
       silent: !process.env.CI,
 
